@@ -16,7 +16,16 @@
   }
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+}
+
 body {
+  -ms-overflow-style: none;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
