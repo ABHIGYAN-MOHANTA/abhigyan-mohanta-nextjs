@@ -87,9 +87,10 @@ const Page = () => {
               </code>
             </pre>
             <p className=" leading-relaxed">
-              Here, replace "My Application" with the name of your application,
-              "/path/to/your_jar_file.jar" with the actual path to your JAR
-              file, and "/path/to/your_icon_file.png" with the actual path to
+              Here, replace &quot;My Application&quot; with the name of your
+              application, &quot;/path/to/your_jar_file.jar&quot; with the
+              actual path to your JAR file, and
+              &quot;/path/to/your_icon_file.png&quot; with the actual path to
               your application icon file.
             </p>
           </div>

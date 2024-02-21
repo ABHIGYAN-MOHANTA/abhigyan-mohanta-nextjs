@@ -63,9 +63,9 @@ const Page = () => {
             </li>
             <li className="">
               Sitemap: Create a sitemap.xml file that lists all the pages of
-              your website. Include the sitemap in your website's robots.txt
-              file, which helps search engines discover and index your pages
-              more efficiently.
+              your website. Include the sitemap in your website&apos;s
+              robots.txt file, which helps search engines discover and index
+              your pages more efficiently.
             </li>
             <li className="">
               Use React Helmet or similar libraries: React Helmet allows you to

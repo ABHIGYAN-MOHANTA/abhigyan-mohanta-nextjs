@@ -16,7 +16,7 @@ export default function Home() {
           <div className="max-w-md">
             <h1 className="mb-5 text-4xl font-bold">Hello there</h1>
             <h1 className="mb-5 text-5xl font-bold">
-              I'm Abhigyan Mohanta
+              I&apos;m Abhigyan Mohanta
               <p className="text-sm">( Software Developer )</p>
             </h1>
             <p className="mb-5">
