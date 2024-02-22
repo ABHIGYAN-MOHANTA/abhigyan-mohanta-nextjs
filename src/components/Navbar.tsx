@@ -5,7 +5,9 @@ const Navbar = () => {
       <div className="flex-1">
         <div className="dropdown dropdown-hover">
           <div tabIndex={0} role="button" className="btn m-1">
-            <a className="btn btn-ghost text-xl">Abhigyan Mohanta</a>
+            <a href="/" className="btn btn-ghost text-xl">
+              Abhigyan Mohanta
+            </a>
           </div>
           <ul
             tabIndex={0}
