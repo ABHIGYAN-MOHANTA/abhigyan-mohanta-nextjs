@@ -1,15 +1,15 @@
 import Image from "next/image";
 const Navbar = () => {
   return (
-    <div className="navbar bg-base-100 z-100">
+    <div className="navbar bg-base-100 z-50">
       <div className="flex-1">
         <div className="dropdown dropdown-hover">
-          <div tabIndex={0} role="button" className="btn m-1">
+          <div tabIndex={0} role="button" className="btn m-1 z-50">
             <a className="btn btn-ghost text-xl">Abhigyan Mohanta</a>
           </div>
           <ul
             tabIndex={0}
-            className="dropdown-content z-[2] menu p-2 shadow bg-base-100 rounded-box w-52"
+            className="dropdown-content z-[2000] menu p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
               <a href="/">I have built everything from:</a>
@@ -67,7 +67,7 @@ const Navbar = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[2] p-2 shadow bg-base-100 rounded-box w-52"
+            className="menu menu-sm dropdown-content mt-3 z-[2000] p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
               <a
