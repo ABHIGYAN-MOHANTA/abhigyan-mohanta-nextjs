@@ -5,16 +5,14 @@ const Navbar = () => {
       <div className="flex-1">
         <div className="dropdown dropdown-hover">
           <div tabIndex={0} role="button" className="btn m-1">
-            <a href="/" className="btn btn-ghost text-xl">
-              Abhigyan Mohanta
-            </a>
+            <a className="btn btn-ghost text-xl">Abhigyan Mohanta</a>
           </div>
           <ul
             tabIndex={0}
             className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <a>I have built everything from:</a>
+              <a href="/">I have built everything from:</a>
             </li>
             <li>
               <a
