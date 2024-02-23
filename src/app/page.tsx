@@ -1,18 +1,15 @@
 "use client";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-// import Raindrops from "@/components/Raindrops";
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col ">
       <Navbar />
-      {/* <Raindrops /> */}
       <div
-        className="hero"
+        className="hero min-h-screen"
         style={{
           backgroundImage: "url(background.jpeg)",
-          minHeight: "calc(100vh - 130px)",
         }}
       >
         <div className="hero-overlay bg-opacity-60"></div>
