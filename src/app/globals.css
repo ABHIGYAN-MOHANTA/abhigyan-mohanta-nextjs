@@ -25,6 +25,7 @@
 }
 
 body {
+  cursor: url("/cursor5.cur"), auto;
   -ms-overflow-style: none;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -33,6 +34,11 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+.btn,
+a {
+  cursor: url("/cursor4.cur"), auto;
 }
 
 @layer utilities {
