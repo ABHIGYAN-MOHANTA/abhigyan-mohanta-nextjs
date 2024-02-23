@@ -16,10 +16,10 @@ const HomePage = () => {
         }}
       >
         <div className="hero-overlay bg-opacity-60"></div>
-        <div className="hero-content text-center text-neutral-content z-10">
+        <div className="text-center text-neutral-content z-10 flex-col">
           {blogs.blogs.map((blog: any) => (
             <Link href={`/blogs/${blog.id}`} key={blog.id}>
-              <div className="m-4">
+              <div className="">
                 <Cards
                   title={blog.title}
                   badge={blog.badge}
