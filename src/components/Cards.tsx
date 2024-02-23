@@ -1,15 +1,12 @@
 import Image from "next/image";
 export default function Cards(props: any) {
   return (
-    <div
-      className="card bg-base-100 shadow-xl m-8"
-      style={{ maxWidth: "768px" }}
-    >
+    <div className="card w-80 bg-base-100 shadow-xl m-8">
       <figure>
         {(props.pic.startsWith("pic") && (
-          <Image src={props.pic} alt="Cards" width={768} height={768} />
+          <Image src={props.pic} alt="Cards" width={384} height={384} />
         )) || (
-          <Image src={`${props.pic}`} alt="Cards" width={768} height={768} />
+          <Image src={`${props.pic}`} alt="Cards" width={384} height={384} />
         )}
       </figure>
       <div className="card-body">
