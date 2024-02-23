@@ -26,7 +26,7 @@ const Raindrops: React.FC = () => {
       document.body.appendChild(a);
 
       let animationInterval = setInterval(function () {
-        y += 50;
+        y += 5000;
         a.style.top = y + "px";
         if (y > window.innerHeight) {
           clearInterval(animationInterval);
