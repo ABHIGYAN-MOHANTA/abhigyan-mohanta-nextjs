@@ -5,8 +5,8 @@ const Raindrops: React.FC = () => {
     let size = 50;
 
     const mouseMoveHandler = (event: MouseEvent) => {
-      var x = event.clientX,
-        y = event.clientY;
+      var x = event.clientX - size,
+        y = event.clientY - size;
       let a = document.createElement("div");
       let randomColor = `rgba(${Math.floor(Math.random() * 256)}, ${Math.floor(
         Math.random() * 256
@@ -35,9 +35,7 @@ const Raindrops: React.FC = () => {
       }, 50);
     };
 
-    setTimeout(() => {
-      document.body.addEventListener("mousemove", mouseMoveHandler);
-    }, 1000);
+    document.body.addEventListener("mousemove", mouseMoveHandler);
 
     return () => {
       document.body.removeEventListener("mousemove", mouseMoveHandler);
