@@ -9,7 +9,7 @@ export default function Home() {
       <Navbar />
       <Raindrops />
       <div
-        className="hero min-h-screen"
+        className="hero min-h-screen z-10"
         style={{
           backgroundImage: "url(background.jpeg)",
         }}
