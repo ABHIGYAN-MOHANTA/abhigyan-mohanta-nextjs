@@ -14,7 +14,7 @@ const blogs = {
       id: 2,
       title:
         "How to Make a JAR File an Executable Application in Debian/Ubuntu",
-      description: "Get Google to Crawl Your React Site Faster!!!",
+      description: "Or any file you like!!!",
       badge: "New",
       tag1: "Hot",
       tag2: "Trending",
