@@ -1,7 +1,7 @@
 import Image from "next/image";
 const Navbar = () => {
   return (
-    <div className="navbar bg-base-100 z-50">
+    <div className="navbar bg-base-100 z-50 fixed top-0">
       <div className="flex-1">
         <div className="dropdown dropdown-hover">
           <div tabIndex={0} role="button" className="btn m-1 z-50">
