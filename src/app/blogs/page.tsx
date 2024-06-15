@@ -8,7 +8,7 @@ const HomePage = () => {
   return (
     <main className="flex min-h-screen flex-col ">
       <Navbar />
-      <div className="hero min-h-screen flex flex-wrap justify-center items-center">
+      <div className="hero flex flex-wrap justify-center items-center">
         {blogs.blogs.map((blog: any) => (
           <Link href={`/blogs/${blog.id}`} key={blog.id}>
             <div className="m-4">

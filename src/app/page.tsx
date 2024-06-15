@@ -37,7 +37,7 @@ export default function Home() {
             <a href="http://github.com/ABHIGYAN-MOHANTA" target="_blank">
               <button className="btn btn-primary mr-2 z-10">Github</button>
             </a>
-            <a href="/blogs">
+            <a href="https://abhigyan.hashnode.dev/">
               <button className="btn btn-primary ml-2 z-10">Blogs</button>
             </a>
           </div>
