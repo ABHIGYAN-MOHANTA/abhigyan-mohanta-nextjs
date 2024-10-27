@@ -26,7 +26,7 @@ export default function Home() {
               <p className="text-sm">( Software Developer )</p>
             </h1>
             <p className="mb-5">
-              Developer Intern at SuperEffective | Full Stack Dev | AI/ML |
+              FullStack Dev at Arthur Digital | Full Stack Dev | AI/ML |
               Built UnbreakableMe on Google Play | Building lots of stuff |
               Loves geeking out!
             </p>
