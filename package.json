@@ -10,11 +10,11 @@
   },
   "dependencies": {
     "@react-three/drei": "^9.106.0",
-    "@react-three/fiber": "^8.16.8",
+    "@react-three/fiber": "^8.17.10",
     "@react-three/postprocessing": "^2.16.2",
     "@use-gesture/react": "^10.3.1",
     "next": "14.1.0",
-    "react": "^18",
+    "react": "^18.3.1",
     "react-dom": "^18",
     "three": "^0.165.0"
   },
@@ -22,6 +22,7 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/three": "^0.169.0",
     "autoprefixer": "^10.0.1",
     "daisyui": "^4.7.2",
     "eslint": "^8",

@@ -1,14 +1,16 @@
 "use client";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import Raindrops from "@/components/Raindrops";
+// import Raindrops from "@/components/Raindrops";
+
+
 import { Soulsucker } from "@/components/Soulsucker";
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col ">
       <Navbar />
-      <Raindrops />
+      {/* <Raindrops /> */}
       <div
         className="hero min-h-screen bg-black"
         style={
@@ -26,7 +28,7 @@ export default function Home() {
               <p className="text-sm">( Software Developer )</p>
             </h1>
             <p className="mb-5">
-              FullStack Dev at Arthur Digital | Full Stack Dev | AI/ML |
+              Software Developer at Arthur Digital | Full Stack | AI/ML |
               Built UnbreakableMe on Google Play | Building lots of stuff |
               Loves geeking out!
             </p>
